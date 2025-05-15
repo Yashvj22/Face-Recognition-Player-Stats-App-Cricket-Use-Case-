@@ -25,18 +25,10 @@ Compare players on various metrics like:
 
 ---
 
-## Datasets Used
-
-### 📁 `Final_cleaned_Cricket.csv`
-- Preprocessed career statistics of 28 Indian players.
-- Includes batting, bowling, milestones, and more.
-- **Shape**: `209 rows × 118 columns`
-- **Source**: Data fetched via **RapidAPI**
-
-### 📁 Face Dataset
+## 📁 Dataset
 - Over **300 facial images per player** (augmented for robustness).
 - Images flattened for ML training.
-- **Shape**: `8100 rows × 4097 columns` (grayscale vectors)
+- Preprocessed career statistics of 28 Indian players
 - **Source**: Collected and preprocessed from **RapidAPI**
 
 ---
@@ -50,7 +42,6 @@ Compare players on various metrics like:
 | **Face Detection** | OpenCV (Haar Cascade)        |
 | **Data Handling**  | Pandas, NumPy                |
 | **Visualization**  | Plotly, Seaborn, Matplotlib  |
-| **Model Storage**  | Joblib                       |
 
 ---
 
